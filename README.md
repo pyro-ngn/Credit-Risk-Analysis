@@ -59,6 +59,6 @@ The models' performance was evaluated using the following metrics:
 - ROC-AUC: 0.9150
 - F1 Score (threshold=0.5): 0.9402
 - Precision@20%: 0.9912
-- - Confusion Matrix:
+- Confusion Matrix:
 [[ 4984  3100]
  [  851 31065]]
