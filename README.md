@@ -48,14 +48,17 @@ The models' performance was evaluated using the following metrics:
 
 ### Logistic Regression:
 - ROC-AUC: 0.9129
-- F1 Score: 0.7429
-- Precision@20%: 0.75
+- F1 Score (threshold=0.5): 0.9119
+- Precision@20%: 0.9910
 - Confusion Matrix:
-[[True Positive, False Positive]
-[False Negative, True Negative]]
+[[ 6256  1828]
+ [ 3635 28281]]
 
 
 ### XGBoost:
 - ROC-AUC: 0.9150
-- F1 Score: 0.7450
-- Precision@20%: 0.74
+- F1 Score (threshold=0.5): 0.9402
+- Precision@20%: 0.9912
+- - Confusion Matrix:
+[[ 4984  3100]
+ [  851 31065]]
